@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+.header {
+    height: auto;
+    background-color: black;
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%;
+
+}
+.logo{
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+    width: auto;
+    height: 40px;
+    background-color: #CCF381;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 16px;
+    
+    font-weight: bold;
+    padding: 1% 1%; 
+    
+}
+.btn a{
+    color: rgb(0, 0, 0);
+}
+.menu{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu li a{
+    color: white;
+
+}
+
+.topTextArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #4158D0;
+    padding: 3% 3%; 
+}
+
+#services {
+    height: auto;
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    background-color: rgb(252, 252, 252);
+}
+
+.servicesBlok{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10px;  
+}
+
+.serviceFeature{
+    background-color: rgb(243, 245, 247);
+    padding: 1% 1%;;
+    border-radius: 8px;
+}
+
+#referance{
+    height: auto;
+    padding-top: 1%; 
+    padding-bottom: 1%; 
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    background-color: black;
+}
+
+.referanceBlok{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 10px;  
+}
+
+.baslik2{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.baslik2Beyaz{
+    color: white;
+}
+
+.serviceList{
+    margin-top: 1%;
+}
+.serviceList ul li i{
+    margin-right: 2%;
+}
+
+@media (max-width:768px) {
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10%;
+    }
+    .menu{
+        margin-top: 3%;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+    #siziArayalim{
+        margin-bottom: 3%;
+    }
+    .servicesBlok{
+        flex-direction: column;
+        
+    }
+}
