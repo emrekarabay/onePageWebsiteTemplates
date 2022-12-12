@@ -1,0 +1,27 @@
+$grey-light-2: #afafaf;
+$dark-grey: #1e1e1e;
+$white: #fff;
+
+.footer-copyright{
+    background-color: $dark-grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+        .footer-copyright-left-font{
+            font-family: GreycliffCF;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: $white;
+        }
+}
+
+@media only screen and (max-width: 850px) {
+    .haklar{
+        margin-top:9px;
+        color: $grey-light-2 !important;
+    }
+}

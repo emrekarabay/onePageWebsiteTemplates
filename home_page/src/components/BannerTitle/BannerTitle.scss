@@ -1,0 +1,93 @@
+$green: #76b900;
+
+.title{
+    font-family: GreycliffCF;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+.BannerMarginBottom32{
+    margin-bottom: 32px;
+
+}
+
+.BannerMarginBottom62{
+    margin-bottom: 62px;
+
+}
+.BannerMarginBottom34{
+    margin-bottom: 34px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.normal{
+    font-weight: normal;
+}
+
+.BannerTitleGreen{
+    color: $green;
+}
+
+.BannerTitleWhite{
+    color: #fff;
+}
+
+.fs-32{
+    font-size: 32px;
+}
+
+.fs-28{
+    font-size: 28px;
+}
+
+@media (max-width:768px) {
+    .title{
+        font-family: GreycliffCF;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+    }
+    .BannerMarginBottom32{
+        margin-bottom: 30px;
+    
+    }
+    
+    .BannerMarginBottom62{
+        margin-bottom: 32px;
+    
+    }
+    .BannerMarginBottom34{
+        margin-bottom: 10px;
+    }
+    
+    .bold{
+        font-weight: bold;
+    }
+    
+    .normal{
+        font-weight: normal;
+    }
+    
+    .BannerTitleGreen{
+        color: $green;
+    }
+    
+    .BannerTitleWhite{
+        color: #fff;
+    }
+    
+    .fs-32{
+        font-size: 21px;
+    }
+    
+    .fs-28{
+        font-size: 21px;
+    }
+} 

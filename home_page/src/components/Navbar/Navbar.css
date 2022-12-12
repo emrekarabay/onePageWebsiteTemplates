@@ -1,0 +1,21 @@
+.nav-link{
+    color: #000;
+    }
+.logo{
+    width:317px;
+    height:53px;
+}
+.nav-link:hover{
+color: #76b900;
+}
+
+nav{
+    background-color: #fff;
+}
+
+@media (max-width:768px) {
+    .logo{
+        width: 204px;
+  height: 34px;
+    }
+}

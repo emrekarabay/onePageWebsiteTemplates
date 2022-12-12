@@ -1,0 +1,30 @@
+$primaryColor: #76b900;
+button{
+    border: 1px solid $primaryColor;
+    font-size: 16px;
+    font-weight: 700;
+    
+    height: 40px;
+    padding: 7px 30px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+.transparent{
+    background: transparent;
+    color: $primaryColor;
+    
+}
+
+.greenButton{
+    background: $primaryColor;
+    color: #fff;
+    
+}
+
+.width-185{
+    width: 185px;
+}
+.width-326{
+    width: 326px;
+}

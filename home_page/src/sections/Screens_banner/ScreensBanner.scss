@@ -1,0 +1,73 @@
+.ScreensBannerDisDiv{
+    width: 100%;
+    padding: 48px 121px 60px 123px;
+    background-color: #1e1e1e;
+
+    .ScreensBannerItems{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 19px;
+
+        .ScreensBannerItem{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 29px; 
+            padding: 35px 61px 35px 62px;
+            border-style: solid;
+            border-width: 1px;
+            border-image-source: linear-gradient(to bottom, #656565, #2a2a2a);
+            border-image-slice: 1;
+            background-image: linear-gradient(to bottom, #1e1e1e, #000);
+
+            .imageDiv{
+                width: 71px;
+                height: 50px;
+                margin: 0 29px 0 0;
+                object-fit: contain;
+            }
+
+            .ScreensBannerItemTitle{
+                font-family: GreycliffCF;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: center;
+                color: #fff;
+            }
+           
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .ScreensBannerDisDiv{
+        padding:30px 20px;
+
+        .ScreensBannerItems{
+            flex-direction: column;
+            gap: 15px;
+
+            .ScreensBannerItem{
+                gap: 30px; 
+                padding: 0 30px 0 10px;
+
+                .imageDiv{
+                    width: 60px;
+                    height: 60px;
+                    padding: 18px 13px 17px 12px;
+                }
+                .ScreensBannerItemTitle{
+                    padding: 30px 20px;
+                }
+               
+            }
+        }
+    }
+}

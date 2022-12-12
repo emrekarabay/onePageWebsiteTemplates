@@ -1,0 +1,25 @@
+.Logo5Banner{
+    background-image: url(../../assets//5logo_module/gfn-motif-background.png);
+    padding-top: 49px;
+    padding-bottom: 48px;
+    object-fit: contain;
+}
+.Logo5BannerRow{
+    margin-right: 305px;
+    margin-left: 305px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+@media (max-width:768px) {
+    .Logo5Banner{
+        padding-top: 35px;
+        padding-bottom: 34px;
+    }
+    .Logo5BannerRow{
+        margin-right: 38px;
+        margin-left: 38px;
+        display: flex;
+        flex-direction: row;
+    }
+} 
